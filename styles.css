@@ -3,6 +3,7 @@ body {
     font-size: 13px;
     color: #515076;
     margin: 0;
+    
 
 }
 
@@ -19,9 +20,10 @@ body {
     margin: 0 85px 116px 85px;
     padding: 0;
 
-    /* max-width: 1110px; */
-    /* display: flex;
-    flex-wrap: wrap; */
+    max-width: 1110px; 
+    display: flex;
+    flex-wrap: wrap;
+    
 
 }
 
@@ -29,9 +31,14 @@ body {
     box-sizing: border-box;
     max-width: 340px;
     padding: 25px;
-    background-color: rgba(81, 80, 118, 0.1);
+    background: #F7F7FA;
 
     margin: 0 45px 45px 0;
+}
+
+.products-list li:nth-child(3) {
+    margin: 0 0 45px 0;
+
 }
 
 .product-photo {
@@ -65,16 +72,16 @@ body {
     display: block;
 }
 
-.compound-discription {
+.compound-description {
     line-height: 18px;
     margin-bottom: 20px;
     padding: 0 0 0 12px;
 }
 
-.compound-discription li {
+.compound-description li {
     margin-bottom: 5px;
 }
-.compound-discription li:last-child {
+.compound-description li:last-child {
     margin-bottom: 0px;
 }
 
