@@ -1,0 +1,21 @@
+.compound {
+    color: #515076;
+}
+
+.compound__name {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.compound__list li {
+    margin-bottom: 5px;
+    margin-left: 17px;
+}
+.compound__list li:last-child {
+    margin-bottom: 0px;
+}
+
+.card__compound {
+    margin-bottom: 25px;
+    flex: 1 1 auto;
+}
